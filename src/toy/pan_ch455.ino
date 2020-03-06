@@ -284,3 +284,13 @@ void pan_ch455_display_number(UINT16 num)
   str[3] = '0'+ val0;
   pan_ch455_display(str, 4); 
 }
+
+void pan_ch455_light_on(void)
+{
+    light_status = 1;
+}
+
+void pan_ch455_light_off(void)
+{
+    light_status = 0;
+}

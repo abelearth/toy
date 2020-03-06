@@ -103,4 +103,7 @@ void  panel_ch455_task(void);
 void pan_ch455_display_number(UINT16 num);
 INT32 pan_ch455_open(void);
 void pan_ch455_display(char *str, UINT32 len);
+void pan_ch455_light_on(void);
+void pan_ch455_light_off(void);
+
 #endif /*_PAN_CH455_H_*/
